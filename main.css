@@ -67,8 +67,17 @@
 }
 */
 
-@media (min-width:0px) and (max-width:500px){
+@media (min-width:200px) and (max-width:500px){
 	.content{
 		width: 90vw;
+	}
+	#response{
+		width: 60vw;
+	}
+	#input{
+		width: 80vw;
+	}
+	#input input{
+		width: 80vw;
 	}
 }
