@@ -3,6 +3,8 @@
 	padding: 0;
 	font-family: 'Roboto Mono', monospace;
 }
+
+
 .nav{
 	height: 50px;
 	width: 100%;
@@ -10,11 +12,22 @@
 	position: relative;
 }
 
+.nav .wicon{
+	display: inline-block;
+	position: absolute;
+	top: 20%;
+	left: 2%;
+}
+
 .nav .title{
+	color: #ffff00;
 	font-size: 30px;
+	font-weight: 700;
 	text-align: center;
 	padding-top: 0.5%;
-	font-weight: 700;
+	/*position: absolute;
+	top: 20%;
+	left:42.5%;*/
 }
 
 .content{
