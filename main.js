@@ -2,7 +2,7 @@ function submit(){
 	city = document.getElementById("city").value
 	
 	httpRequest = new XMLHttpRequest();
-	url= "https://api.weatherbit.io/v2.0/current?&city_name="+city+"&country_code=IN&key=fd9b7df8032c43e9831d29d74c037bd4";
+	url= "https://api.weatherbit.io/v2.0/current?&city="+city+"&country=India&key=fd9b7df8032c43e9831d29d74c037bd4";
 	httpRequest.open("GET",url);
 	httpRequest.send();
 
